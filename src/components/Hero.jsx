@@ -50,7 +50,7 @@ const Hero = () => {
 
       <div id="cta" className="flex flex-col items-center opacity-0 translate-y-20">
         <a href="#highlights" className="btn">Buy</a>
-        <p className="font-normal text-xl">From $199/Month Or $999</p>
+        <p className="font-normal text-xl">From <span style={{ color: '#5599c7' }}>$</span>199/Month Or <span style={{ color: '#5599c7' }}>$</span>999</p>
       </div>
 
     </section>
