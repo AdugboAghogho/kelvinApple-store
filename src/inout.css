@@ -556,6 +556,14 @@ video {
   margin-top: 2.5rem;
 }
 
+.mb-12 {
+  margin-bottom: 3rem;
+}
+
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -601,6 +609,14 @@ video {
   flex-direction: column;
 }
 
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.items-end {
+  align-items: flex-end;
+}
+
 .items-center {
   align-items: center;
 }
@@ -621,8 +637,16 @@ video {
   gap: 1.75rem;
 }
 
+.gap-5 {
+  gap: 1.25rem;
+}
+
 .overflow-hidden {
   overflow: hidden;
+}
+
+.rounded-3xl {
+  border-radius: 1.5rem;
 }
 
 .bg-black {
@@ -643,6 +667,10 @@ video {
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
+}
+
+.pr-10 {
+  padding-right: 2.5rem;
 }
 
 .text-sm {
@@ -783,6 +811,25 @@ video {
   }
 }
 
+.video-carousel_container {
+  position: relative;
+  height: 35vh;
+  width: 88vw;
+}
+
+@media (min-width: 640px) {
+  .video-carousel_container {
+    height: 50vh;
+    width: 70vw;
+  }
+}
+
+@media (min-width: 768px) {
+  .video-carousel_container {
+    height: 70vh;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -836,9 +883,17 @@ canvas {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
   }
+
+  .sm\:pr-20 {
+    padding-right: 5rem;
+  }
 }
 
 @media (min-width: 768px) {
+  .md\:flex {
+    display: flex;
+  }
+
   .md\:w-10\/12 {
     width: 83.333333%;
   }
