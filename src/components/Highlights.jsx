@@ -7,14 +7,15 @@ const Highlights = () => {
   useGSAP(() => {
     gsap.to('#title', {
       opacity: 1,
-      delay: 2,
+      y: 0,
     })
+
     gsap.to('#cta', { 
       opacity: 1, 
       y: -50, 
       delay: 2 
     })
-  })
+  }, [])
 
   return (
     <section id="highlights" className="w-screen overflow-hidden h-full common-padding bg-zinc">
