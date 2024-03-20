@@ -564,12 +564,20 @@ video {
   height: 83.333333%;
 }
 
+.h-full {
+  height: 100%;
+}
+
 .w-9\/12 {
   width: 75%;
 }
 
 .w-full {
   width: 100%;
+}
+
+.w-screen {
+  width: 100vw;
 }
 
 .flex-1 {
@@ -613,9 +621,18 @@ video {
   gap: 1.75rem;
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.bg-zinc {
+  --tw-bg-opacity: 1;
+  background-color: rgb(16 16 16 / var(--tw-bg-opacity));
 }
 
 .px-5 {
@@ -688,6 +705,49 @@ video {
   background-color: transparent;
   --tw-text-opacity: 1;
   color: rgb(41 151 255 / var(--tw-text-opacity));
+}
+
+.common-padding {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+@media (min-width: 640px) {
+  .common-padding {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+}
+
+.section-heading {
+  margin-bottom: 1.25rem;
+  --tw-translate-y: 5rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 500;
+  --tw-text-opacity: 1;
+  color: rgb(134 134 139 / var(--tw-text-opacity));
+  opacity: 0;
+}
+
+@media (min-width: 768px) {
+  .section-heading {
+    font-size: 3rem;
+    line-height: 1;
+  }
+}
+
+@media (min-width: 1024px) {
+  .section-heading {
+    margin-bottom: 0px;
+    font-size: 3.75rem;
+    line-height: 1;
+  }
 }
 
 .link {
