@@ -7,6 +7,7 @@ import { Canvas } from '@react-three/fiber';
 import { View } from '@react-three/drei';
 
 import * as THREE from 'three';
+import { models } from '../constants';
 
 const Model = () => {
     const [size, setSize] = useState('small');
@@ -82,7 +83,20 @@ const Model = () => {
                         {model.title}
                     </p>
 
-                    
+                    <div className="flex-center">
+                        <ul className="color-container">
+                            {models.map((item, i) => (
+                                <li 
+                                  key={i}
+                                  className="w-6 h-6 rounded-full mx-2 cursor-pointer"
+                                  style={{
+                                    backgroundColor: item.color[0]
+                                  }}
+                                  onClick={() => setModel(item)}
+                                />
+                            ))}
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>

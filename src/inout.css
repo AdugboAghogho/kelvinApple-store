@@ -626,6 +626,10 @@ video {
   height: 100%;
 }
 
+.h-6 {
+  height: 1.5rem;
+}
+
 .w-3 {
   width: 0.75rem;
 }
@@ -640,6 +644,10 @@ video {
 
 .w-screen {
   width: 100vw;
+}
+
+.w-6 {
+  width: 1.5rem;
 }
 
 .flex-1 {
@@ -837,6 +845,21 @@ video {
   background-color: transparent;
   --tw-text-opacity: 1;
   color: rgb(41 151 255 / var(--tw-text-opacity));
+}
+
+.color-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  background-color: #42424570;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  --tw-backdrop-blur: blur(8px);
+  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+          backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
 }
 
 .common-padding {
