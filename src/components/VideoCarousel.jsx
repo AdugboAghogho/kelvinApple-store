@@ -128,6 +128,10 @@ const VideoCarousel = () => {
                 videoId: 0 }))
             case 'play':
                 setVideo((pre) => ({ ...pre, isPlaying: !pre.isPlaying }))
+                break;
+            case 'pause':
+                setVideo((pre) => ({ ...pre, isPlaying: !pre.isPlaying }))
+                break;
         
             default:
                 return video;
