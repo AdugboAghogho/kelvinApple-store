@@ -94,6 +94,17 @@ const VideoCarousel = () => {
             if(videoId === 0) {
                 anim.restart();
             }
+
+            const animUpdate = () => {
+                anim.progress(videoRef.current[videoId] /
+                hightlightsSlides[videoId].videoDuration)
+            }
+
+            if (isPlaying) {
+                gsap.ticker.add(animUpdate)
+            } else {
+                gsap.ticker.remove(animUpdate)
+            }
         }
     }, [videoId, startPlay])
 
