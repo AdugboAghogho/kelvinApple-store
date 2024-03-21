@@ -33,7 +33,7 @@ const Model = () => {
     }, []);
 
   return (
-    <section className='common-padding bg-white'>
+    <section className='common-paddin'>
        <div className="screen-max-width">
             <h1 id='heading' className='section-heading'>
                 Take a closer look.
@@ -78,9 +78,11 @@ const Model = () => {
                 </div>
 
                 <div className="mx-auto w-full">
-                    <p className="text-sm font-light text-center">
+                    <p className="text-sm font-light text-center mb-5">
                         {model.title}
                     </p>
+
+                    
                 </div>
             </div>
         </div>
