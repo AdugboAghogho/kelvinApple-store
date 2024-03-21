@@ -9,6 +9,7 @@ const VideoCarousel = () => {
     const videoSpanRef = useRef([]);
     const videoDivRef = useRef([]);
 
+    // video and indicator
     const [video, setVideo] = useState({
         isEnd: false,
         startPlay: false,
