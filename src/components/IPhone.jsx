@@ -11,6 +11,7 @@ import { useGLTF } from '@react-three/drei'
 
 function Model(props) {
   const { nodes, materials } = useGLTF('/models/scene.glb')
+  
   return (
     <group {...props} dispose={null}>
       <mesh
@@ -234,5 +235,6 @@ function Model(props) {
   )
 }
 
-export default Model
+export default Model;
+
 useGLTF.preload('/models/scene.glb')

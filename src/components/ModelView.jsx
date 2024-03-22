@@ -18,7 +18,7 @@ const ModelView = ({ index, groupRef, gaspType, controlRef, setRotation, size, i
 
       <Lights />
 
-      <Suspense fallback={<div>Loading...</div>} >
+      <Suspense fallback={<div>Loading...</div>}>
         <IPhone />
       </Suspense>
     </View>
