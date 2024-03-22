@@ -164,11 +164,10 @@ const VideoCarousel = () => {
                             ? handleProcess('video-end', i)
                             : handleProcess('video-last')
                           }
-                          onPlay={() => {
-                            setVideo((prevVideo) = ({
-                                ...prev, isPlaying: true
-                            }))
-                          }}
+                          onPlay={() =>
+                            setVideo((pre) => ({ ...pre, isPlaying: true }))
+                          }
+
                           onLoadedMetadata={(e) => handleLoadedMetadata(i, e)}
                         >
                             <source src={list.video} type='video/mp4' />
