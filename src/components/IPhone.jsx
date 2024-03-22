@@ -7,11 +7,13 @@ Title: Apple iPhone 15 Pro Max Black
 */
 
 import React, { useRef } from 'react'
-import { useGLTF } from '@react-three/drei'
+import { useGLTF, useTexture } from '@react-three/drei'
 
 function Model(props) {
   const { nodes, materials } = useGLTF('/models/scene.glb')
-  
+
+  const texture = useTexture(props.item.img);
+
   return (
     <group {...props} dispose={null}>
       <mesh
