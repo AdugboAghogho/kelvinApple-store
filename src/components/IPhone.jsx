@@ -5,8 +5,8 @@ License: CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
 Source: https://sketchfab.com/3d-models/apple-iphone-15-pro-max-black-df17520841214c1792fb8a44c6783ee7
 Title: Apple iPhone 15 Pro Max Black
 */
-
-import React, { useRef } from 'react'
+import * as THREE from 'three'
+import React, { useEffect, useRef } from 'react'
 import { useGLTF, useTexture } from '@react-three/drei'
 
 function Model(props) {
