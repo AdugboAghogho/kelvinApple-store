@@ -4,13 +4,13 @@ import Lights from './Lights'
 import IPhone from './IPhone'
 import * as THREE from 'three'
 
-const ModelView = ({ index, groupRef, gaspType, controlRef, setRotation, size, item }) => {
+const ModelView = ({ index, groupRef, gaspType, controlRef, setRotationState, size, item }) => {
 
   return (
     <View
       index={index}
       id={gaspType}
-      className={`w-full h-full absolute ${index === 2} ? 'right-[-100%] : ''`}
+      className={`w-full h-full absolute ${index === 2 ? 'right-[-100%]' : ''}`}
     >
       {/* ambient Light */}
       <ambientLight intensity={0.3} />
