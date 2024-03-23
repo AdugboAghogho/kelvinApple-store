@@ -21,6 +21,10 @@ const Features = () => {
                 Explore The Full Story
             </h1>
         </div>
+
+        <div className="flex flex-col">
+            .
+        </div>
       </div>
     </section>
   )
