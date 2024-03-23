@@ -72,8 +72,8 @@ canvas {
   }
 
   .feature-video {
-    /* border-radius: 1rem; */
-    @apply w-full h-full object-cover object-center scale-150 opacity-0 rounded-[2rem]
+    border-radius: 1rem;
+    @apply w-full h-full object-cover object-center scale-150 opacity-0
   }
 
   .feature-video-container {
