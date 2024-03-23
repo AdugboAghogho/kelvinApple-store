@@ -994,6 +994,7 @@ video {
 }
 
 .feature-video {
+  border-radius: 2rem;
   height: 100%;
   width: 100%;
   --tw-scale-x: 1.5;
@@ -1003,7 +1004,7 @@ video {
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
-  opacity: 0;
+  opacity: 0
 }
 
 .feature-video-container {
