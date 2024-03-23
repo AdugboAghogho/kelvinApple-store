@@ -5,7 +5,7 @@ import IPhone from './IPhone'
 import * as THREE from 'three'
 import Loader from './Loader';
 
-const ModelView = ({ index, groupRef, gaspType, controlRef, setRotationState, size, item }) => {
+const ModelView = ({ index, groupRef, gsapType, controlRef, setRotationState, size, item }) => {
 
   return (
     <View
