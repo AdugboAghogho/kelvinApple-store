@@ -39,6 +39,7 @@ const Features = () => {
                       className='w-full h-full object-cover object-center pointer-events-none'
                       preload='none'
                       muted
+                      loop
                       autoPlay ref={videoRef}
                     >
                         <source src={exploreVideo} type='video/mp4'/>
