@@ -19,6 +19,7 @@ import right from "/assets/images/right.svg";
 import replay from "/assets/images/replay.svg";
 import play from "/assets/images/play.svg";
 import pause from "/assets/images/pause.svg";
+import Spinner from "/assets/images/Spinner.svg";
 
 import yellow from "/assets/images/yellow.jpg";
 import blue from "/assets/images/blue.jpg";
@@ -39,6 +40,7 @@ export const exploreVideo = exploremv;
 export const frameVideo = framemv;
 
 export const appleImg = apple;
+export const spinnerImg = Spinner;
 export const searchImg = search;
 export const bagImg = bag;
 export const watchImg = watch;
