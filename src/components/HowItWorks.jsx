@@ -61,7 +61,7 @@ const HowItWorks = () => {
             </div>
           </div>
           <p className="text-gray font-semibold text-center mt-3">Honkai: Star Rail</p>
-        </div>
+        </div>  
 
         <div className="hiw-text-container">
           <div className="flex flex-1 justify-center flex-col">
