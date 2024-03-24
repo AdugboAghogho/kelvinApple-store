@@ -55,7 +55,7 @@ const HowItWorks = () => {
               />
             </div>
             <div className="hiw-video">
-              <video className="pointer-events-none" playsInline preload="none" muted autoPlay ref={videoRef}>
+              <video className="pointer-events-none" playsInline preload="none" muted loop autoPlay ref={videoRef}>
                 <source src={frameVideo} type="video/mp4" />
               </video>
             </div>
@@ -72,7 +72,7 @@ const HowItWorks = () => {
               </span>.
             </p>
 
-            <p className="hiw-text g_fadeIn mt-10">
+            <p className="hiw-text g_fadeIn mt-10"> 
               Mobile {' '}
               <span className="text-white">
                 games will look and feel so immersive
